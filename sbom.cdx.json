@@ -1,0 +1,144 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:39c5bf90-b1d0-5de2-9338-a998d76d8760",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:09:34Z",
+    "component": {
+      "type": "application",
+      "name": "L_TASKWEAVER",
+      "version": "d44ddef23f90",
+      "bom-ref": "pkg:generic/anticloud/L_TASKWEAVER@d44ddef23f90",
+      "purl": "pkg:generic/anticloud/L_TASKWEAVER@d44ddef23f90",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "d44ddef23f90059fb17999d3095db4240e98f955"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/microsoft/TaskWeaver.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "__version__",
+      "version": "= [\\",
+      "purl": "pkg:pypi/--version--@[\\",
+      "bom-ref": "pypi/__version__@= [\\"
+    },
+    {
+      "type": "library",
+      "name": "taskweaver",
+      "version": "=taskweaver.__main__:main",
+      "purl": "pkg:pypi/taskweaver@taskweaver.__main__:main",
+      "bom-ref": "pypi/taskweaver@=taskweaver.__main__:main"
+    },
+    {
+      "type": "library",
+      "name": "@docusaurus/core",
+      "version": "^3.9.2",
+      "purl": "pkg:npm/@docusaurus/core@^3.9.2",
+      "bom-ref": "npm/@docusaurus/core@^3.9.2"
+    },
+    {
+      "type": "library",
+      "name": "@docusaurus/preset-classic",
+      "version": "^3.9.2",
+      "purl": "pkg:npm/@docusaurus/preset-classic@^3.9.2",
+      "bom-ref": "npm/@docusaurus/preset-classic@^3.9.2"
+    },
+    {
+      "type": "library",
+      "name": "@docusaurus/theme-mermaid",
+      "version": "^3.9.2",
+      "purl": "pkg:npm/@docusaurus/theme-mermaid@^3.9.2",
+      "bom-ref": "npm/@docusaurus/theme-mermaid@^3.9.2"
+    },
+    {
+      "type": "library",
+      "name": "@easyops-cn/docusaurus-search-local",
+      "version": "^0.52.3",
+      "purl": "pkg:npm/@easyops-cn/docusaurus-search-local@^0.52.3",
+      "bom-ref": "npm/@easyops-cn/docusaurus-search-local@^0.52.3"
+    },
+    {
+      "type": "library",
+      "name": "@mdx-js/react",
+      "version": "^3.1.1",
+      "purl": "pkg:npm/@mdx-js/react@^3.1.1",
+      "bom-ref": "npm/@mdx-js/react@^3.1.1"
+    },
+    {
+      "type": "library",
+      "name": "clsx",
+      "version": "^2.1.1",
+      "purl": "pkg:npm/clsx@^2.1.1",
+      "bom-ref": "npm/clsx@^2.1.1"
+    },
+    {
+      "type": "library",
+      "name": "prism-react-renderer",
+      "version": "^2.4.1",
+      "purl": "pkg:npm/prism-react-renderer@^2.4.1",
+      "bom-ref": "npm/prism-react-renderer@^2.4.1"
+    },
+    {
+      "type": "library",
+      "name": "react",
+      "version": "^19.2.4",
+      "purl": "pkg:npm/react@^19.2.4",
+      "bom-ref": "npm/react@^19.2.4"
+    },
+    {
+      "type": "library",
+      "name": "react-dom",
+      "version": "^19.2.4",
+      "purl": "pkg:npm/react-dom@^19.2.4",
+      "bom-ref": "npm/react-dom@^19.2.4"
+    },
+    {
+      "type": "library",
+      "name": "shell-quote",
+      "version": "^1.8.3",
+      "purl": "pkg:npm/shell-quote@^1.8.3",
+      "bom-ref": "npm/shell-quote@^1.8.3"
+    },
+    {
+      "type": "library",
+      "name": "trim-newlines",
+      "version": "^5.0.0",
+      "purl": "pkg:npm/trim-newlines@^5.0.0",
+      "bom-ref": "npm/trim-newlines@^5.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@docusaurus/module-type-aliases",
+      "version": "^3.9.2",
+      "purl": "pkg:npm/@docusaurus/module-type-aliases@^3.9.2",
+      "bom-ref": "npm/@docusaurus/module-type-aliases@^3.9.2"
+    },
+    {
+      "type": "library",
+      "name": "@docusaurus/types",
+      "version": "^3.9.2",
+      "purl": "pkg:npm/@docusaurus/types@^3.9.2",
+      "bom-ref": "npm/@docusaurus/types@^3.9.2"
+    }
+  ]
+}
